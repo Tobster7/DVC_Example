@@ -1,6 +1,0 @@
-[core]
-    remote = tax_datastore
-[cache]
-    type = copy
-['remote "tax_datastore"']
-    url = ssh://remote@192.168.1.97/home/remote/Dokumente/dvc/datastores/tax_datastore
