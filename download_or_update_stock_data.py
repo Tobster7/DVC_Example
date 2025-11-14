@@ -45,6 +45,8 @@ def download_update_stock_data(ticker: str, save_path: str = "data/raw/"):
     else:
         updated_data = new_data
     
+    subprocess.run(["dvc", "unprotect", file_path])
+
     # Save updated dataset as Parquet
     updated_data.to_parquet(file_path, engine='pyarrow')
     print(f"Updated data saved at: {file_path}")
