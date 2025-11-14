@@ -1,2 +1,2 @@
 [cache]
-    type = "hardlink,symlink"
+    type = "reflink,symlink,hardlink,copy"
