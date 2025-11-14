@@ -1,0 +1,5 @@
+outs:
+- md5: 953dc10ae6198bbf45e14a1ae846d83e
+  size: 147506
+  hash: md5
+  path: NVDA.parquet
